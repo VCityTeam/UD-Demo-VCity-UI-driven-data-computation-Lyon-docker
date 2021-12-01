@@ -16,8 +16,8 @@ RUN npm --version
 RUN apt-get install -y git
 RUN git --version
 
-RUN git clone https://github.com/VCityTeam/UD-Demo-vcity-lods-lyon.git
-WORKDIR UD-Demo-vcity-lods-lyon
+RUN git clone https://github.com/VCityTeam/UD-Demo-VCity-UI-driven-data-computation-Lyon.git
+WORKDIR UD-Demo-VCity-UI-driven-data-computation-Lyon
 RUN npm install
 RUN npm run build
 
@@ -28,4 +28,4 @@ WORKDIR UD-SimpleServer
 RUN npm install
 
 EXPOSE 80
-CMD [ "node", "./index.js", "/UD-Demo-vcity-lods-lyon", "80" ]
+CMD [ "node", "./index.js", "/UD-Demo-VCity-UI-driven-data-computation-Lyon", "80" ]
