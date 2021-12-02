@@ -8,7 +8,7 @@ The demo uses a [SimpleServer](https://github.com/VCityTeam/UD-SimpleServer), ba
 Clone the repo
 
 ```bash
-git clone https://github.com/VCityTeam/UD-Demo-vcity-lods-lyon-docker.git
+git clone https://github.com/VCityTeam/UD-Demo-VCity-UI-driven-data-computation-Lyon-docker.git
 cd UD-Demo-VCity-UI-driven-data-computation-Lyon-docker
 ```
 
