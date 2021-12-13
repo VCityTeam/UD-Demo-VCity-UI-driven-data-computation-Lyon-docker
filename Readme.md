@@ -24,4 +24,4 @@ and run the container with
 docker run -p 8082:80/tcp -t demo_ui-driven-data-computation
 ```
 
-and open a web browser on URL `http://localhost:8080/`
+and open a web browser on URL `http://localhost:8082/`
