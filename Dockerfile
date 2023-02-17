@@ -18,7 +18,7 @@ RUN git --version
 
 RUN git clone https://github.com/VCityTeam/UD-Demo-VCity-UI-driven-data-computation-Lyon.git
 WORKDIR UD-Demo-VCity-UI-driven-data-computation-Lyon
-RUN npm i
+RUN npm ci
 RUN npm run build
 
 ######### Install the ExpressJS server
